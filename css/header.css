@@ -3,9 +3,6 @@ h1,li,p{
     margin: 0px;
     padding: 0px;
 }
-
-
-
 .header-container{
     background-color: var(--cor-4);
     padding: 20px;
@@ -15,15 +12,11 @@ h1,li,p{
     box-sizing: border-box;
     max-width: 1500px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;   
 }
-
 .header-marca{
     width: 400px;   
 }
-
-
 .header-titulo{  
     margin: 10px;
     font-family: 'Bebas Neue', cursive;
@@ -35,7 +28,7 @@ h1,li,p{
    margin: 10px;
    font-family: 'Ms Madi', cursive;
    text-align: right;
-   font-size: 30px;
+   font-size: 50px;
 }
 
 .nav{
@@ -70,23 +63,55 @@ h1,li,p{
     display: none;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
+    .nav{
+        padding-left: 40px;
+    }
+    .header-titulo{
+        font-size: 100px;
+    }
+    .header-subtitulo{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1000px){
+    .header-titulo{
+        font-size: 80px;
+    }
+}
+
+
+@media (max-width: 850px){
+    .header-titulo{
+        font-size: 80px;
+        padding-right: 150px;
+    }
+    .header-subtitulo{
+        font-size: 40px;
+        padding-right: 150px;
+    }
     #btn-mobile{
         display: block;
     }
-
     .nav a{
         display: block;
         position: absolute;
         width: 100%;
         top: 140px;
-       
-
     }
-
     #nav.active .nav a{
-         display: flex;
-         
-    
+         display: flex;    
+    }
+}
+
+@media (max-width: 610px){
+    .header-titulo{
+        font-size: 60px;
+        padding-right: 100px;
+    }
+    .header-subtitulo{
+        font-size: 30px;
+        padding-right: 100px;
     }
 }
