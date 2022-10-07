@@ -94,14 +94,15 @@ h1,li,p{
     #btn-mobile{
         display: block;
     }
-    .nav a{
+    .nav {
         display: block;
         position: absolute;
         width: 100%;
         top: 140px;
     }
     #nav.active .nav a{
-         display: flex;    
+         display: none;
+         transition: 0.5s;
     }
 }
 

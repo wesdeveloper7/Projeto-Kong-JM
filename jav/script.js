@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 const bntMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(){
