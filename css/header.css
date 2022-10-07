@@ -1,0 +1,92 @@
+
+h1,li,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header-container{
+    background-color: var(--cor-4);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header-marca{
+    width: 400px;   
+}
+
+
+.header-titulo{  
+    margin: 10px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 120px; 
+}
+
+.header-subtitulo{
+   margin: 10px;
+   font-family: 'Ms Madi', cursive;
+   text-align: right;
+   font-size: 30px;
+}
+
+.nav{
+    background: var(--cor-4);
+    padding-right: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items:flex-end;
+    transition: 0.5s;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--cor-2); 
+    font-family: 'Abyssinica SIL', serif; 
+    font-size: 20px; 
+}
+
+.nav a:hover{
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width: 800px){
+    #btn-mobile{
+        display: block;
+    }
+
+    .nav a{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 140px;
+       
+
+    }
+
+    #nav.active .nav a{
+         display: flex;
+         
+    
+    }
+}

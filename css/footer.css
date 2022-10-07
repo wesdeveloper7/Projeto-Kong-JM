@@ -1,0 +1,104 @@
+.footer-geral{
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor-3);   
+}
+.footer-copy{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+   
+
+.footer-container{
+    padding: 30px;
+    background-color: var(--cor-4);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.footer-informacoes{
+    text-align: left;
+    padding-left: 50px;
+    align-self:center;
+}
+
+.footer-informacoes-h3{
+    color: var(--cor-0);
+    font-size: 30px;
+}
+
+.footer-informacoes-a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    max-width: 80px;
+    color: var(--cor-2);   
+}
+
+.footer-informacoes-a:hover{
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.footer-contato{
+    text-align: right;
+    padding-right: 50px;
+    grid-column: 3;
+    align-self:center;
+    position: relative;
+}
+
+.footer-contato-h3{
+    color: var(--cor-0);
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.footer-contato-li{
+    padding: 10px;
+}
+
+.footer-redes{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    
+}
+
+.footer-contato-a1{
+    padding: 10px;
+}
+
+.footer-contato-tel{
+    top: 70px;
+    left: 210px;
+    padding: 5px; 
+    position: absolute;
+}
+
+.footer-contato-tel:hover{
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+    border-radius: 4px;
+    font-weight: bold; 
+}
+
+.footer-contato-email{
+    top: 110px;
+    left: 180px;
+    padding: 5px; 
+    position: absolute;
+}
+
+.footer-contato-email:hover{
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+    border-radius: 4px;
+    font-weight: bold; 
+}
