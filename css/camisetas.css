@@ -20,7 +20,7 @@
     position: relative;
 }
 .camiseta-imagem img{
-    width: 100%;
+    min-width: 100%;
 }
 .camiseta-ul img{
     margin-right: 20px;

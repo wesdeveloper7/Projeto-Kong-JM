@@ -99,6 +99,7 @@ h1,li,p{
         position: absolute;
         width: 100%;
         top: 140px;
+        left: 280px;
     }
     #nav.active .nav a{
          display: none;
