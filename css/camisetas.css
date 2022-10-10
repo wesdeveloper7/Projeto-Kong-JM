@@ -6,7 +6,7 @@
     background-color: var(--cor-2);    
 }
 .camiseta-imagem{
-    width: 70%;
+    width: 100%;
     background-color: var(--cor-4);
     display: block;
     align-items: center;
@@ -20,7 +20,7 @@
     position: relative;
 }
 .camiseta-imagem img{
-    min-width: 100%;
+    width: 100%;
 }
 .camiseta-ul img{
     margin-right: 20px;
@@ -29,12 +29,12 @@
     margin-bottom: 80px;
     font-family: 'Lato', sans-serif;
     font-style: italic;
-    font-size: 60px;
+    font-size: 50px;
 }
 .camiseta-p{
     margin-bottom: 32px;
     font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 .camiseta-li{
    display: flex;
@@ -42,7 +42,7 @@
     margin-top: 40px;
 }
 .botao{
-    font-size: 25px;
+    font-size: 17px;
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 10px;
@@ -75,4 +75,105 @@
     font-weight: bold;
 }
 
+@media (max-width: 600px){
     
+    .camisetas-container{
+        grid-template-columns: 1fr;
+       margin-bottom: 0px;
+       position: relative;    
+    }
+    .camiseta-imagem{
+        height: 350px;
+    }
+    .camiseta-conteudo{
+        padding: 0px;
+    }
+    .camiseta-h2{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;  
+    }
+    .camiseta-p{
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .camiseta-li{
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+    .botao{
+        position: absolute;
+        top: 150px;
+        right: 30px;
+        padding: 5px;
+    }
+    #p-calca{
+        font-size: 18px;
+    }
+    #botao-bone{
+        position: absolute;
+        top: 150px;
+        right: 30px;
+        font-size: 17px;
+        background-color: var(--cor-1);
+        border-radius: 4px;
+        margin-top: 10px;
+        padding: 5px;
+        text-decoration: none;
+        display: inline-block;
+        color: var(--cor-4);
+        text-transform:uppercase;
+        font-weight: bold;
+    }
+    #botao-bone:hover{
+        background-color: var(--cor-5);
+        color: var(--cor-4);
+        transition: 0.5s;
+    }
+    #botao-tenis{
+        position: absolute;
+        top: 175px;
+        right: 25px;
+        font-size: 17px;
+        background-color: var(--cor-1);
+        border-radius: 4px;
+        margin-top: 10px;
+        padding: 5px;
+        text-decoration: none;
+        display: inline-block;
+        color: var(--cor-4);
+        text-transform:uppercase;
+        font-weight: bold;
+    }
+    #botao-tenis:hover{
+        background-color: var(--cor-5);
+        color: var(--cor-4);
+        transition: 0.5s;
+    }
+    #botao-relogio{
+        position: absolute;
+        top: 175px;
+        right: 25px;
+        font-size: 17px;
+        background-color: var(--cor-1);
+        border-radius: 4px;
+        margin-top: 10px;
+        padding: 5px;
+        text-decoration: none;
+        display: inline-block;
+        color: var(--cor-4);
+        text-transform:uppercase;
+        font-weight: bold;
+    }
+    #botao-relogio:hover{
+        background-color: var(--cor-5);
+        color: var(--cor-4);
+        transition: 0.5s;
+    }
+}    
