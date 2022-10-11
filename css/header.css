@@ -58,7 +58,7 @@ h1,li,p{
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 430px){
     .header-subtitulo{
         padding: 5px;
         align-self:flex-end;
