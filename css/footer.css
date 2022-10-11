@@ -7,98 +7,97 @@
     padding-top: 30px;
     padding-bottom: 10px;
 }
-   
-
 .footer-container{
     padding: 30px;
     background-color: var(--cor-4);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-content: center;  
+    align-items:center
 }
-
-.footer-informacoes{
-    text-align: left;
-    padding-left: 50px;
-    align-self:center;
-}
-
 .footer-informacoes-h3{
     color: var(--cor-0);
     font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }
-
 .footer-informacoes-a{
-    padding: 10px;
+    font-size: 17px;
+    margin-left: 150px;
+    padding: 15px;
+    align-content: center;
     text-decoration: none;
     display: block;
-    max-width: 80px;
+    text-align: center;
+    max-width: 100px;
     color: var(--cor-2);   
 }
-
 .footer-informacoes-a:hover{
+    max-width: 120px;
     background-color: var(--cor-2);
     color: var(--cor-4);
     transition: 0.5s;
     border-radius: 4px;
     font-weight: bold;
 }
-
-.footer-contato{
-    text-align: right;
-    padding-right: 50px;
-    grid-column: 3;
-    align-self:center;
-    position: relative;
-}
-
 .footer-contato-h3{
+    display: flex;
+    justify-content: center;
     color: var(--cor-0);
     font-size: 30px;
-    padding-right: 10px;
 }
-
-.footer-contato-li{
-    padding: 10px;
+.footer-contato-li{   
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
-
 .footer-redes{
     display: flex;
     gap: 20px;
-    justify-content: end;
-    
+    justify-content: center;    
 }
-
-.footer-contato-a1{
-    padding: 10px;
+.footer-contato-li-tel{
+    font-size: 15px;
+    padding-bottom: 15px;
+    align-content: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: var(--cor-2);    
 }
-
-.footer-contato-tel{
-    top: 70px;
-    left: 210px;
-    padding: 5px; 
-    position: absolute;
-}
-
-.footer-contato-tel:hover{
+.footer-contato-li-tel a:hover{
+    padding: 15px;
     background-color: var(--cor-2);
     color: var(--cor-4);
     transition: 0.5s;
     border-radius: 4px;
-    font-weight: bold; 
+    font-weight: bold;
 }
-
-.footer-contato-email{
-    top: 110px;
-    left: 180px;
-    padding: 5px; 
-    position: absolute;
+.footer-contato-li-email{
+    font-size: 15px;
+    padding-bottom: 15px;
+    align-content: center;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: var(--cor-2);    
 }
-
-.footer-contato-email:hover{
+.footer-contato-li-email a:hover{
+    padding: 15px;
     background-color: var(--cor-2);
     color: var(--cor-4);
     transition: 0.5s;
     border-radius: 4px;
-    font-weight: bold; 
+    font-weight: bold;
+}
+@media(max-width: 600px){
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .header-marca{
+        display: flex;
+        justify-content: flex-end;
+        align-self: center;
+       
+    }
 }

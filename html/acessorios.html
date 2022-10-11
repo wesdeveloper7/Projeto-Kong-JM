@@ -18,9 +18,11 @@
       <p class="header-subtitulo cor-3">A sua marca</p>
    </div>
        
-   <nav class="nav">
-    <button id="btn-mobile">Menu</button>
-      <ul class="nav a">
+   <nav id="nav">
+    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+      <span id="hamburger"></span>
+    </button>
+      <ul id="menu" role="menu">
        <li><a href="./index.html">Home</a></li>
        <li><a href="./camisetas.html">Camisetas</a></li>
        <li><a href="./calcas.html">Calças</a></li>
@@ -97,29 +99,30 @@
     
  <footer class="footer-geral">
   <div class="footer-container">
-   <div class="footer-informacoes">
-    <h3 class="footer-informacoes-h3 cor-0">Informações</h3>
-     <nav>
-      <ul class="footer-informacoes-ul cor-0">
-       <li class="footer-informacoes-a"><a href="./pedidos.html">Pedidos</a></li>
-       <li class="footer-informacoes-a"><a href="./">Delivery</a></li>
-       <li class="footer-informacoes-a"><a href="./">Contato</a></li>
-       <li class="footer-informacoes-a"><a href="./">Termos & Condições</a></li>
-      </ul>
-     </nav>
-   </div>
-
-  <div>
-   <img class="k2" src="../img/k2.jpeg" alt="">
-  </div>
+    <div class="header-marca">
+      <a href="../html/index.html">
+        <h1 class="header-titulo cor-3">KONG JM</h1>
+      </a>
+       
+    </div>
+      <div class="footer-informacoes">
+        <h3 class="footer-informacoes-h3 cor-0">Informações</h3>
+            <nav>
+              <ul class="footer-informacoes-ul cor-0">
+                <li class="footer-informacoes-a"><a href="./pedidos.html">Pedidos</a></li>
+                <li class="footer-informacoes-a"><a href="./contato.html">Contato</a></li>
+                <li class="footer-informacoes-a"><a href="./termos.html">Termos & Condições</a></li>
+              </ul>
+            </nav>
+      </div>
     
   <div class="footer-contato">
    <h3 id="Contato" class="footer-contato-h3 cor-0">Contato</h3><br>
     <ul class="footer-contato-ul cor-0">
-     <li class="footer-contato-tel"><a href="tel:+552199999999">Tel: +55 12 99799-7702</a></li>
-     <li class=footer-contato-email><a href="mailto:contato@bikcraft.com">Email: contato@kongjm.com</a></li><br>
-     <li class="footer-contato-a1">Rua X, 1400 - Panorama</li>
-     <li class="footer-contato-a1">Caçapava - SP</li>
+      <li class="footer-contato-li-tel"><a   href="tel:+55129799-7702">Tel: +55 12 99799-7702</a></li>
+      <li class="footer-contato-li-email"><a href="mailto:contato@kongjm.com">Email: contato@kongjm.com</a></li>
+      <li class="footer-contato-li">Rua X, 1400 - Panorama</li>
+      <li class="footer-contato-li">Caçapava - SP</li>
     </ul>
   
     <div class="footer-redes">
