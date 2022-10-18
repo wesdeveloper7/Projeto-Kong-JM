@@ -1,5 +1,5 @@
 .camisetas-container{
-    padding: 50px;
+    padding: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -12,41 +12,55 @@
     align-items: center;
     border-radius: 5px;
     position: relative;
-    padding: 100px;
+    padding: 5rem;
 }
 .camiseta-conteudo{
     background-color: var(--cor-0);
-    padding-left: 60px;
+    padding-left: 6rem;
     position: relative;
 }
 .camiseta-imagem img{
     width: 100%;
 }
 .camiseta-ul img{
-    margin-right: 20px;
+    margin-right: 2rem;
 }      
 .camiseta-h2{
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
     font-family: 'Lato', sans-serif;
     font-style: italic;
-    font-size: 50px;
+    font-size: 5rem;
 }
 .camiseta-p{
-    margin-bottom: 32px;
+    margin-bottom: 3.2rem;
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 .camiseta-li{
    display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 4rem;
+}
+
+.camiseta-imagem span{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+    background: var(--cor-5);
+    color: var(--cor-4);
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 4px 0 0 4px;
+    font-weight: bold;
 }
 .botao{
-    font-size: 17px;
+    font-size: 1.7rem;
     background-color: var(--cor-1);
     border-radius: 4px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
     text-decoration: none;
     display: inline-block;
     color: var(--cor-4);
@@ -61,70 +75,147 @@
     color: var(--cor-4);
     transition: 0.5s;
 }
-.camiseta-imagem span{
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 10px 10px;
-    background: var(--cor-5);
-    color: var(--cor-4);
+#botao-bone{
+    font-size: 1.7rem;
+    background-color: var(--cor-1);
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
     display: inline-block;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border-radius: 4px 0 0 4px;
+    color: var(--cor-4);
+    text-transform:uppercase;
     font-weight: bold;
+    position: absolute;
+    top: 450px;
+    right: 200px;   
+}
+#botao-bone:hover{
+    background-color: var(--cor-5);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+#botao-tenis{
+    font-size: 1.7rem;
+    background-color: var(--cor-1);
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--cor-4);
+    text-transform:uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 450px;
+    right: 200px;   
+}
+#botao-tenis:hover{
+    background-color: var(--cor-5);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+#botao-relogio{
+    font-size: 1.7rem;
+    background-color: var(--cor-1);
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--cor-4);
+    text-transform:uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 450px;
+    right: 200px;
+}
+#botao-relogio:hover{
+    background-color: var(--cor-5);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+/*_____________________________________*/
+/*MEDIA 1024PX*/
+@media (max-width:1024px){
+    html{
+        font-size: 50%;
+    }
+    .botao{
+    position: absolute;
+    top: 250px;
+    right: 100px;
+
+    }
+}
+/*_____________________________________*/
+@media (max-width:768px){
+.camiseta-imagem{
+    width: 99%;
+    height: 445px;
+    
+    
+}
+.camiseta-imagem img{
+    width: 100%;
+    
+    
 }
 
+}
+
+/*_____________________________________*/
+/*MEDIA 600PX*/
 @media (max-width: 600px){
     
     .camisetas-container{
         grid-template-columns: 1fr;
-       margin-bottom: 0px;
+       margin-bottom: 0rem;
        position: relative;    
     }
     .camiseta-imagem{
         height: 350px;
     }
     .camiseta-conteudo{
-        padding: 0px;
+        padding: 0rem;
     }
     .camiseta-h2{
-        font-size: 30px;
+        font-size: 3rem;
         text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;  
+        margin-top: 0rem;
+        margin-bottom: 0rem;  
     }
     .camiseta-p{
-        padding: 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 20px;
+        padding: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 2rem;
         text-align: center;
     }
     .camiseta-li{
         text-align: center;
-        margin-top: 0px;
-        margin-left: 30px;
-        margin-bottom: 0px;
+        margin-top: 0rem;
+        margin-left: 3rem;
+        margin-bottom: 0rem;
     }
     .botao{
         position: absolute;
         top: 150px;
         right: 30px;
-        padding: 5px;
+        padding: 0.5rem;
     }
     #p-calca{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
     #botao-bone{
         position: absolute;
         top: 150px;
         right: 30px;
-        font-size: 17px;
+        font-size: 1.7rem;
         background-color: var(--cor-1);
         border-radius: 4px;
-        margin-top: 10px;
-        padding: 5px;
+        margin-top: 1rem;
+        padding: 0.5rem;
         text-decoration: none;
         display: inline-block;
         color: var(--cor-4);
@@ -140,11 +231,11 @@
         position: absolute;
         top: 175px;
         right: 25px;
-        font-size: 17px;
+        font-size: 1.7rem;
         background-color: var(--cor-1);
         border-radius: 4px;
-        margin-top: 10px;
-        padding: 5px;
+        margin-top: 1rem;
+        padding: 0.5rem;
         text-decoration: none;
         display: inline-block;
         color: var(--cor-4);
@@ -160,11 +251,11 @@
         position: absolute;
         top: 175px;
         right: 25px;
-        font-size: 17px;
+        font-size: 1.7rem;
         background-color: var(--cor-1);
         border-radius: 4px;
-        margin-top: 10px;
-        padding: 5px;
+        margin-top: 1rem;
+        padding: 0.5rem;
         text-decoration: none;
         display: inline-block;
         color: var(--cor-4);

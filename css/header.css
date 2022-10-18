@@ -1,49 +1,60 @@
-
 h1,li,p{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
-.header-container{
+.header-geral{
     background-color: var(--cor-4);
-    padding: 20px;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;   
+    width:100%;
+    max-width: 1450px;
+    margin: auto;   
+}
+.header-container{
+  background-color: var(--cor-4);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width:90%;
+  max-width: 1450px;
+  margin: auto;   
 }
 .header-marca{
-    width: 400px;   
+    width: 350px;   
 }
 .header-titulo{  
-    margin: 10px;
-    font-family: 'Bebas Neue', cursive;
+    margin: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    font-size: 120px; 
+    font-size: 12rem; 
 }
 
 .header-subtitulo{
-   margin: 10px;
-   font-family: 'Ms Madi', cursive;
+   margin: 1rem;
+   font-family: 'Ms Madi', sans-serif;
    text-align: right;
-   font-size: 50px;
+   font-size: 5rem;
 }
 
 #menu{
   display: flex;
   list-style: none;
-  gap: 0.5rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #menu a{
-    padding: 10px;
+    padding: 1rem;
     text-decoration: none;
-    display: inline-block;
     color: var(--cor-2); 
     font-family: 'Abyssinica SIL', serif; 
-    font-size: 20px; 
+    font-size: 2rem; 
 }
 
 #menu a:hover{
@@ -57,11 +68,39 @@ h1,li,p{
 #btn-mobile{
     display: none;
 }
+/*-------------------------------------------------*/
 
-@media (max-width: 430px){
-    .header-subtitulo{
-        padding: 5px;
+@media(max-width:1024px){
+ 
+  .header-titulo{
+    text-align: left;
+    font-size: 9rem;
+    margin: 0.5rem;
+  }
+  .header-subtitulo{
+    text-align: center;
+    font-size: 3rem;
+  }
+  #menu a{
+     padding-left: 2rem;
+  }
+}
+     
+/*-------------------------------------------------*/
+/*MEDIA 600PX*/
+@media (max-width: 600px){
+    .header-subtitulo  {
+        padding: 0.5rem;
+        text-align: left;
         align-self:flex-end;
+    }
+    #nav{
+      justify-content: center;
+      align-self:center;
+      position: absolute;
+      top: 120px;
+      right: 30px;
+      overflow: hidden;
     }
     #menu{
     display: block;
@@ -83,15 +122,15 @@ h1,li,p{
       }
       #menu a{
         margin: 0 1rem;
-        padding: 10px;
+        padding: 1rem;
         text-decoration: none;
         display: inline-block;
         color: var(--cor-4); 
         font-family: 'Abyssinica SIL', serif; 
-        font-size: 20px;
+        font-size: 2rem;
       }
       #menu a:hover{
-        padding: 15px;
+        padding: 1.5rem;
         background-color: var(--cor-2);
         color: var(--cor-4);
         transition: 0.5s;
@@ -104,7 +143,7 @@ h1,li,p{
       #btn-mobile {
         display: flex;
         padding: 0.5rem 1rem;
-        font-size: 1rem;
+        font-size: 2rem;
         border: none;
         background-color: var(--cor-2);
         cursor: pointer;
@@ -121,7 +160,7 @@ h1,li,p{
         width: 20px;
         height: 2px;
         background: currentColor;
-        margin-top: 5px;
+        margin-top: 0.5rem;
         transition: 0.3s;
         position: relative;
       }
@@ -135,9 +174,7 @@ h1,li,p{
         transform: rotate(-135deg);
         top: -7px;
       }
-      #nav.active #produtos-geral{
-        background-color: aquamarine;
-      }
+      
       
     }
 

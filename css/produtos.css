@@ -1,9 +1,9 @@
 .produto-lista1{
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
     background: var(--cor-4);
    }
 .produto-lista2{
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
     background-color: var(--cor-2);
 }
 
@@ -17,15 +17,15 @@
 .produto-titulo1{
     color: var(--cor-0);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .produto-titulo2{
     color: var(--cor-4);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .produtos-img{
@@ -38,8 +38,8 @@
 
 .botao1{
     border-radius: 4px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
     text-decoration: none;
     display: inline-block;
     color: var(--cor-4);
@@ -57,8 +57,8 @@
 
 .botao2{
     border-radius: 4px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
     text-decoration: none;
     display: inline-block;
     color: var(--cor-4);
