@@ -1,0 +1,41 @@
+.termos-container{
+    background-color: var(--cor-1);
+
+}
+.termos-h2{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+}
+.termos-p{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 3.2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.termos-p-final{
+    margin-left: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+/*______________________________________*/
+@media (max-width:425px){
+    .termos-h2{
+        padding-top: 20px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .termos-p{
+        font-size: 2rem;
+    }
+}
+/*______________________________________*/
+@media (max-width:320px){
+    .termos-container{
+    width: 108%;
+    }
+}

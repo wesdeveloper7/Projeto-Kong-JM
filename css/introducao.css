@@ -18,3 +18,20 @@
     font-family: 'Lato', sans-serif;    
 }
 /*____________________________________*/
+@media (max-width:425px){
+    .introducao-h1{
+        font-size: 4rem;
+    }
+}
+/*____________________________________*/
+@media (max-width:375px){
+    .introducao-h1{
+        font-size: 3rem;
+    }
+}
+/*____________________________________*/
+@media (max-width:320px){
+    .introducao-h1{
+        font-size: 3.5rem;
+    }
+}
