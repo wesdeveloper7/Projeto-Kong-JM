@@ -89,6 +89,9 @@ h1,li,p{
 /*-------------------------------------------------*/
 /*MEDIA 600PX*/
 @media (max-width: 600px){
+    .header-container{
+      max-width: 425px;
+    }
     .header-subtitulo  {
         padding: 0.5rem;
         text-align: left;
@@ -99,8 +102,10 @@ h1,li,p{
       align-self:center;
       position: absolute;
       top: 120px;
-      right: 30px;
+      right: 0px;
       overflow: hidden;
+      height: 439px;
+      margin-right: 20px;
     }
     #menu{
     display: block;
@@ -119,6 +124,8 @@ h1,li,p{
         height: 73vh;
         visibility: visible;
         overflow-y: auto;
+        position: relative;
+        top: -13px;
       }
       #menu a{
         margin: 0 1rem;
@@ -142,12 +149,12 @@ h1,li,p{
 
       #btn-mobile {
         display: flex;
-        padding: 0.5rem 1rem;
+        padding: 2rem 2.9rem;
         font-size: 2rem;
         border: none;
         background-color: var(--cor-2);
         cursor: pointer;
-        gap: 0.5rem;
+        height: 50px;
       }
       #hamburger {
         border-top: 2px solid;
@@ -173,8 +180,53 @@ h1,li,p{
       #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
-      }
-      
-      
+      } 
     }
-
+/*-------------------------------------------------*/
+/*MEDIA 375PX*/
+@media (max-width: 375px){
+  #nav{
+    justify-content: center;
+    align-self:center;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    overflow: hidden;
+    height: 395px;
+    margin-right: 18px;
+  }
+}
+/*-------------------------------------------------*/
+/*MEDIA 320PX*/
+@media (max-width: 320px){
+  #nav{
+    justify-content: center;
+    align-self:center;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    overflow: hidden;
+    height: 345px;
+    margin-right: 16px;
+  }
+  #menu a{
+    margin: 0 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--cor-4); 
+    font-family: 'Abyssinica SIL', serif; 
+    font-size: 1.5rem;
+  }
+  #menu a:hover{
+    padding: 1.5rem;
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  #btn-mobile {
+    font-size: 1.5rem;
+}
+}

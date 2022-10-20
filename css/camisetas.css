@@ -24,9 +24,13 @@
 }
 .camiseta-ul img{
     margin-right: 2rem;
-}      
+} 
+.camiseta-ul{
+    font-size: 2.5rem;
+}     
 .camiseta-h2{
-    margin-bottom: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-size: 5rem;
@@ -56,7 +60,7 @@
     font-weight: bold;
 }
 .botao{
-    font-size: 1.7rem;
+   
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -67,16 +71,27 @@
     text-transform:uppercase;
     font-weight: bold;
     position: absolute;
-    top: 450px;
-    right: 200px;      
+          
 }
 .botao:hover{
     background-color: var(--cor-5);
     color: var(--cor-4);
     transition: 0.5s;
 }
+#botao-bone,
+#botao-tenis,
+#botao-relogio{
+    font-size: 2.5rem;
+    top: 500px;
+    right: 300px; 
+}
+.botao{
+    font-size: 2.5rem;
+    top: 500px;
+    right: 300px; 
+}
 #botao-bone{
-    font-size: 1.7rem;
+    
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -87,8 +102,7 @@
     text-transform:uppercase;
     font-weight: bold;
     position: absolute;
-    top: 450px;
-    right: 200px;   
+     
 }
 #botao-bone:hover{
     background-color: var(--cor-5);
@@ -96,7 +110,7 @@
     transition: 0.5s;
 }
 #botao-tenis{
-    font-size: 1.7rem;
+ 
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -106,9 +120,7 @@
     color: var(--cor-4);
     text-transform:uppercase;
     font-weight: bold;
-    position: absolute;
-    top: 450px;
-    right: 200px;   
+    position: absolute; 
 }
 #botao-tenis:hover{
     background-color: var(--cor-5);
@@ -116,7 +128,7 @@
     transition: 0.5s;
 }
 #botao-relogio{
-    font-size: 1.7rem;
+    
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -127,8 +139,6 @@
     text-transform:uppercase;
     font-weight: bold;
     position: absolute;
-    top: 450px;
-    right: 200px;
 }
 #botao-relogio:hover{
     background-color: var(--cor-5);
@@ -143,23 +153,59 @@
     }
     .botao{
     position: absolute;
-    top: 250px;
-    right: 100px;
-
+    top: 300px;
+    right: 30px;
+    font-size: 2rem;
+    }
+    .camiseta-ul{
+        font-size: 2rem;
+    }
+    #botao-tenis,
+    #botao-relogio,
+    #botao-bone{
+    top: 300px;
+    right: 30px;
+    font-size: 2rem;
     }
 }
 /*_____________________________________*/
 @media (max-width:768px){
+   
 .camiseta-imagem{
-    width: 99%;
-    height: 445px;
-    
-    
+    width: 100%;
+    height: 345px;
+    border-radius: 2px 0 0 2px;
 }
 .camiseta-imagem img{
-    width: 100%;
-    
-    
+    width: 100%;    
+}
+.camiseta-conteudo{
+    height: 345px;
+}
+.camiseta-h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.camiseta-p{
+    font-size: 1.9rem;
+}
+.camiseta-li{
+    margin-top: 2rem;
+}
+.botao{
+    top: 210px;
+    right: 15px;
+    font-size: 1.5rem;
+}
+#botao-tenis,
+#botao-relogio,
+#botao-bone{
+    top: 210px;
+    right: 15px;
+    font-size: 1.5rem;
+}
+.camiseta-ul{
+    font-size: 1.5rem;
 }
 
 }
@@ -175,8 +221,11 @@
     }
     .camiseta-imagem{
         height: 350px;
+        border-radius: 2px 2px 0 0;
+        
     }
     .camiseta-conteudo{
+       height: 255px;
         padding: 0rem;
     }
     .camiseta-h2{
@@ -229,8 +278,8 @@
     }
     #botao-tenis{
         position: absolute;
-        top: 175px;
-        right: 25px;
+        top: 150px;
+        right: 15px;
         font-size: 1.7rem;
         background-color: var(--cor-1);
         border-radius: 4px;
@@ -268,3 +317,65 @@
         transition: 0.5s;
     }
 }    
+/*_____________________________________*/
+/*MEDIA 375PX*/
+@media (max-width: 375px){
+    .camiseta-conteudo{
+        height: 285px;
+    }
+    .camiseta-imagem{
+        height: 280px;
+    }
+    .botao{
+        top: 240px;
+        right: 30px;
+        font-size: 1.4rem;
+    }
+    #botao-tenis{
+        top: 240px;
+        right: 100px;
+        font-size: 1.4rem;
+    }
+    #botao-relogio{
+        top: 240px;
+        right: 100px;
+        font-size: 1.4rem;
+    }
+    .preco{
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+}
+/*_____________________________________*/
+/*MEDIA 320PX*/
+@media (max-width: 320px){
+    .preco{
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+    .camiseta-h2{
+        font-size: 2.5rem;
+    }
+    .camiseta-conteudo{
+        height: 285px;
+    }
+    .camiseta-p{
+        font-size: 1.6rem;
+    }
+    .camiseta-li{
+        font-size: 1.4rem;
+    }
+    .camiseta-imagem{
+        height: 230px;
+    }
+    #botao-tenis{
+        top: 240px;
+        right: 80px;
+        font-size: 1.4rem;
+    }
+    .botao{
+        top: 240px;
+        right: 80px;
+        font-size: 1.4rem;
+    }
+}

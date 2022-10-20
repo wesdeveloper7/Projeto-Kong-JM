@@ -58,6 +58,7 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
     border: var(--cor-0);
+    font-size: 2rem;
 }
 
 .orcamento-produto label::before{
@@ -189,33 +190,32 @@
     color: var(--cor-5);
     transition: 0.5s;
 }
-
-@media(max-width:1200px){
-     .orcamento-produto,
-     .orcamento-dados{
-        padding: 32px;
-     }     
+/*_____________________________________*/
+@media(max-width:1024px){
+    .formulario{
+        width: 250px;
+    }
 }
-
-@media(max-width:800px){
-  .orcamento{
-    grid-template-columns: 1fr;
-  }
-  .orcamento-produto{
-    border-radius: 5px 5px 0 0;
-    background: var(--cor-4) 
-  }
-  .orcamento-dados{
-    border-radius: 0 0 5px 5px;
-  }
-}
-
-@media(max-width:400px){
-    .orcamento-produto{
+/*_____________________________________*/
+@media(max-width: 768px){
+    
+    .grid-dados,
+    .grid-entrega{
         grid-template-columns: 1fr;
     }
 }
-
-
-
-
+/*_____________________________________*/    
+@media (max-width: 425px){
+    .orcamento-container{
+        grid-template-columns: 1fr;
+    }
+    .botao-solicitar{
+        right: 120px;
+    }
+}
+/*_______________________________________________________*/   
+@media (max-width: 320px){
+.botao-solicitar{
+    right: 60px;
+}
+}
