@@ -6,7 +6,6 @@
     padding-bottom: 4rem;
     background-color: var(--cor-2);
 }
-
 .produto-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -20,22 +19,18 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-
 .produto-titulo2{
     color: var(--cor-4);
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-
 .produtos-img{
    border-radius: 4px;
 }
-
 .produto-li{
     justify-self: center;
 }
-
 .botao1{
     border-radius: 4px;
     margin-top: 1rem;
@@ -44,17 +39,14 @@
     display: inline-block;
     color: var(--cor-4);
     text-transform:capitalize;
-    font-weight: bold;
-         
+    font-weight: bold;      
 }
-
 .botao1:hover{
     background-color: var(--cor-5);
     color: var(--cor-4);
     transition: 0.5s;
     border-radius: 4px;
 }
-
 .botao2{
     border-radius: 4px;
     margin-top: 1rem;
@@ -65,7 +57,6 @@
     text-transform:capitalize;
     font-weight: bold;      
 }
-
 .botao2:hover{
     background-color: var(--cor-5);
     color: var(--cor-4);

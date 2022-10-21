@@ -45,7 +45,6 @@
     align-items: center;
     margin-top: 4rem;
 }
-
 .camiseta-imagem span{
     margin-top: 1rem;
     margin-right: 1rem;
@@ -89,7 +88,6 @@
     right: 100px; 
 }
 #botao-bone{
-    
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -108,7 +106,6 @@
     transition: 0.5s;
 }
 #botao-tenis{
- 
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -126,7 +123,6 @@
     transition: 0.5s;
 }
 #botao-relogio{
-    
     background-color: var(--cor-1);
     border-radius: 4px;
     margin-top: 1rem;
@@ -144,7 +140,6 @@
     transition: 0.5s;
 }
 /*_____________________________________*/
-/*MEDIA 1024PX*/
 @media (max-width:1024px){
     html{
         font-size: 50%;
@@ -167,8 +162,7 @@
     }
 }
 /*_____________________________________*/
-@media (max-width:768px){
-   
+@media (max-width:768px){ 
 .camiseta-imagem{
     width: 100%;
     height: 345px;
@@ -205,13 +199,9 @@
 .camiseta-ul{
     font-size: 1.5rem;
 }
-
 }
-
 /*_____________________________________*/
-/*MEDIA 600PX*/
 @media (max-width: 600px){
-    
     .camisetas-container{
         grid-template-columns: 1fr;
        margin-bottom: 0rem;
@@ -220,7 +210,6 @@
     .camiseta-imagem{
         height: 350px;
         border-radius: 2px 2px 0 0;
-        
     }
     .camiseta-conteudo{
        height: 255px;
@@ -316,7 +305,6 @@
     }
 }    
 /*_____________________________________*/
-/*MEDIA 375PX*/
 @media (max-width: 375px){
     .camiseta-conteudo{
         height: 285px;
@@ -345,7 +333,6 @@
     }
 }
 /*_____________________________________*/
-/*MEDIA 320PX*/
 @media (max-width: 320px){
     .preco{
         margin-top: 0.5rem;
